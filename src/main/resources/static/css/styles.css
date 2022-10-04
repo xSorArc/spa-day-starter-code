@@ -12,15 +12,35 @@ div {
 
 h1 {
     margin: auto;
-        width: 50%;
-        padding: 10px;
-        text-align: center;
-        background-color: white;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
 }
 
 table {
     margin: auto;
-            width: 50%;
-            padding: 10px;
-            text-align: center;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+}
+
+.nailStyle1 {
+    background-color: blue;
+
+}
+
+.nailStyle2 {
+    background-color: green;
+}
+
+.nailStyle3 {
+    background-color: red;
 }
