@@ -29,18 +29,35 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 50px;
+}
+
+.targetClass {
+    display: flex;
+    flex-direction: row;
+    width: 300px
+    height: 100px
 }
 
 .nailStyle1 {
     background-color: blue;
+    width: 32%;
+     height: 0;
+     padding-bottom: 32%
 
 }
 
 .nailStyle2 {
     background-color: green;
+    width: 32%;
+     height: 0;
+     padding-bottom: 32%
 }
 
 .nailStyle3 {
     background-color: red;
+    width: 32%;
+    height: 0;
+    padding-bottom: 32%
 }
+
+
