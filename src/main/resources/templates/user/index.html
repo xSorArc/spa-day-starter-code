@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8"/>
+    <title></title>
+</head>
+<body>
+<p th:text="${'Welcome ' + user.getUserName + '!'}"></p>
+<a th:href="@{/}">Service Selection</a>
+
+<!--TODO: Display a list of all users by user name. Each name should have a link to a page with user's name and email-->
+
+</body>
+</html>
